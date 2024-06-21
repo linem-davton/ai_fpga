@@ -1,4 +1,4 @@
-# Pytorch MOdel for Image Classification
+# Pytorch Model for Image Classification
 
 
 # Vitis AI 
