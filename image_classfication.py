@@ -76,6 +76,13 @@ for epoch in range(20):  # Loop over the dataset multiple times
 
 print('Finished Training')
 
+
+
+# Save the trained model weights
+torch.save(net.state_dict(), 'img_class.pth')
+print('Model saved to img_class.pth')
+
+
 # Testing the network on the test data
 correct = 0
 total = 0
